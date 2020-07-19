@@ -1,0 +1,62 @@
+﻿# github操作
+github.com  sign in/sign up
+https://github.com/small-qiu
+1.Repository 仓库
+2.star 收藏
+3.Fork 负责克隆项目
+
+fork 完全负责仓库（张三 forked from 李四）独立存在--> 张三可动态改变源代码 --
+--> 发送 pull request 给李四查看（感觉不错） ——> 李四合并代码
+
+4. pull request 发起请求
+5.watch 关注，关注一个人\项目 可查看其更新代码
+6.issue 事务，发现BUG,发给github主
+
+
+github主页
+仓库主页
+个人主页
+readme.md文件  详细描述
+
+
+
+################################################
+# git 
+
+1.git 下载 ~
+
+2.第一次：
+设置用户名：
+git config --global user.name "这里填写自己的用户名"//small-qiu
+设置用户名邮箱
+git config --global user.email "这里填写自己的用户名邮箱"//1532189448@qq.com
+注意空格
+
+3.下载仓库到本地
+在D://download_repositoris下右键->git bash here
+git clone https://github.com/small-qiu/仓库名.git
+注意空格
+
+4.产生文件夹，在文件夹下新建/或粘贴文件
+
+在文件夹下
+
+工作区->暂存区：git add . 会车             （表示添加到本地库，不加"."会报错）或 git add 文件名
+暂存区-> 仓库 ：git commit -m "提示信息"   （-m和""之间有空格）
+      推送    ：git push origin master 回车 (推送到远程库的master分支）
+
+5.git pull 把远程仓库的项目拉到本地，如果远程和本地一样就Aleady up-to-date
+
+6.删除文件
+rm -rf 文件名
+git rm 文件名
+git commit -m "提交描述"
+git push origin master
+
+7.修改文件
+vi 文件名（a 进入编译，Esc切换，然后在左下角输:wq就可以退出,有“：”）
+编译时下面为“--插入--”，按Esc时消失，可输入“:wq”
+git status  、 git diff 文件 可查看 修改
+git add 文件
+git commit -m "提示信息"
+
