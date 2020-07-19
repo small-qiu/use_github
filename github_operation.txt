@@ -59,4 +59,5 @@ vi 文件名（a 进入编译，Esc切换，然后在左下角输:wq就可以退
 git status  、 git diff 文件 可查看 修改
 git add 文件
 git commit -m "提示信息"
+git push origin master
 
