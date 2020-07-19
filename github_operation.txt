@@ -1,6 +1,8 @@
 ﻿# github操作
 github.com  sign in/sign up
 https://github.com/small-qiu
+http://ping.chinaz.com/github.com  # 查找最佳ip放到hosts(C:\Windows\System32\drivers\etc\hosts)
+
 1.Repository 仓库
 2.star 收藏
 3.Fork 负责克隆项目
