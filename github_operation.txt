@@ -63,3 +63,11 @@ git add 文件
 git commit -m "提示信息"
 git push origin master
 
+
+###gitar
+图形化界面
+克隆
+取出 （本地到gitar）
+拉取 （github到gitar）
+推送（gitar到github）
+stage(准备push)
